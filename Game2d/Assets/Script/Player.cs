@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         anim.SetBool("Grounded", grounded);
         anim.SetFloat("Speed", Mathf.Abs(r2.velocity.x));
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             if (grounded)
             {
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
                 {
                     doublejump = false;
                     r2.velocity = new Vector2(r2.velocity.x, 0);
-                    r2.AddForce(Vector2.up * jumpPow * 0.7f);
+                    r2.AddForce(Vector2.up * jumpPow * 1.2f);
                 }
             }
 
