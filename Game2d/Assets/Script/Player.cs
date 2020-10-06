@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
 
     public Rigidbody2D r2;
     public Animator anim;
+    public GameControl gmcol;
+    public HeartUI hpUI;
 
     // Use this for initialization
     void Start()
@@ -20,6 +22,11 @@ public class Player : MonoBehaviour
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         ourHealth = maxhealth;
+        gmcol = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
+        if(hpUI == null)
+        {
+            hpUI = gameObject.GetComponent<HeartUI>();
+        }
     }
 
     // Update is called once per frame
@@ -76,7 +83,7 @@ public class Player : MonoBehaviour
         }
         if (grounded)
         {
-            r2.velocity = new Vector2(r2.velocity.x * 1f, r2.velocity.y);
+            r2.velocity = new Vector2(r2.velocity.x * 0.8f, r2.velocity.y);
         }
         if (ourHealth <= 0)
         {
@@ -105,6 +112,27 @@ public class Player : MonoBehaviour
     public void Knockback(float Knockpow, Vector2 Knockdir)
     {
         r2.velocity = new Vector2(0, 0);
-        r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
+        if(faceright){
+            r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
+        }
+        else
+        {
+            r2.AddForce(new Vector2(Knockdir.x * 100, Knockdir.y * Knockpow));
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Gold"))
+        {
+            Destroy(other.gameObject);
+            gmcol.GamePoint++;
+        }
+        //gmcol.GetPoint(); // dùng tạm thời . vẽ  tiền full map trước rồi sửa
+        if (other.CompareTag("Thuoc"))
+        {
+            Destroy(other.gameObject);
+            ourHealth++;
+        }
     }
 }

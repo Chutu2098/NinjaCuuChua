@@ -15,6 +15,7 @@ public class HeartUI : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        
     }
 
     // Update is called once per frame

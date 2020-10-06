@@ -8,6 +8,8 @@ TagManager:
   - MovingPlat
   - Spikes
   - Enemy
+  - Gold
+  - Thuoc
   layers:
   - Default
   - TransparentFX

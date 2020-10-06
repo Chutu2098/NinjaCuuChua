@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingPlat : MonoBehaviour
+public class MovingPlatVertical : MonoBehaviour
 {
     public float speed = 0.05f, changeDirection = -1;
     Vector3 Move;
@@ -27,8 +27,8 @@ public class MovingPlat : MonoBehaviour
         //}
         //if (pausep.pause == false)
         //{
-            Move.x += speed;
-            this.transform.position = Move;
+        Move.y += speed;
+        this.transform.position = Move;
         //}
 
 
@@ -42,5 +42,4 @@ public class MovingPlat : MonoBehaviour
             speed *= changeDirection;
         }
     }
-
 }
