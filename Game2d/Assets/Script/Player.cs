@@ -132,7 +132,10 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Thuoc"))
         {
             Destroy(other.gameObject);
-            ourHealth++;
+            if(ourHealth != maxhealth)
+            {
+                ourHealth++;
+            }
         }
     }
 }
