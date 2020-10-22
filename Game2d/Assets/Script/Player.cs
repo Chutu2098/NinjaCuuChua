@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public bool grounded = true, faceright = true, doublejump = false;
 
     public int ourHealth;
-    public int maxhealth = 5;
+    public int maxhealth = 100;
 
     public Rigidbody2D r2;
     public Animator anim;
