@@ -8,7 +8,7 @@ public class AttackTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.isTrigger != true && col.CompareTag("Enemy"))
+        if (col.isTrigger != true && col.CompareTag("Ground") || col.CompareTag("Enemy"))
         {
             col.SendMessageUpwards("Damage", dmg);
         }

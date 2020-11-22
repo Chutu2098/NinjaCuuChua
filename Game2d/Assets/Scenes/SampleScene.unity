@@ -2739,6 +2739,8 @@ MonoBehaviour:
   maxhealth: 5
   r2: {fileID: 0}
   anim: {fileID: 0}
+  gmcol: {fileID: 0}
+  hpUI: {fileID: 0}
 --- !u!61 &623220318
 BoxCollider2D:
   m_ObjectHideFlags: 0

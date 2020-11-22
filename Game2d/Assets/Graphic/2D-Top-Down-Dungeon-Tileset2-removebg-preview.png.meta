@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: fbc8512a6c35407409f7e80b1e92b31c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1115927791237846104
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_0
+  - first:
+      213: 8439554292653227368
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_1
+  - first:
+      213: 3718321363154162603
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_2
+  - first:
+      213: -3975330778677712871
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_3
+  - first:
+      213: 6499294024170721766
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_4
+  - first:
+      213: 699100805126797798
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_5
+  - first:
+      213: 303826754214863540
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_6
+  - first:
+      213: 2336611941524025165
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_7
+  - first:
+      213: 5788038751263730710
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_8
+  - first:
+      213: 216416590380423912
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_9
+  - first:
+      213: -3335481113057048145
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_10
+  - first:
+      213: -3261279682629107222
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_11
+  - first:
+      213: 6967179158287650938
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_12
+  - first:
+      213: 4552177416509951992
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_13
+  - first:
+      213: -7858943789180770995
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_14
+  - first:
+      213: 2489631519811978729
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_15
+  - first:
+      213: 8730329598591285330
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_16
+  - first:
+      213: 1616567305869061534
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_17
+  - first:
+      213: -6767593732884222763
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_18
+  - first:
+      213: 4744828178459598752
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_19
+  - first:
+      213: 7059387795202982588
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_20
+  - first:
+      213: 892441852226673920
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_21
+  - first:
+      213: -5334101180695395368
+    second: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 19
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 196
+        width: 116
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab2848169d6380f0800000000000000
+      internalID: -1115927791237846104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 197
+        width: 188
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86df73c1ae15f1570800000000000000
+      internalID: 8439554292653227368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 201
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3dc8b44912a9330800000000000000
+      internalID: 3718321363154162603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 107
+        width: 66
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918ec3018b9c4d8c0800000000000000
+      internalID: -3975330778677712871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 107
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1d381fa71223a50800000000000000
+      internalID: 6499294024170721766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 107
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9b5cf6a74b3b900800000000000000
+      internalID: 699100805126797798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 106
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2ac3eb2d8673400800000000000000
+      internalID: 303826754214863540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 107
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fa9705e205d6020800000000000000
+      internalID: 2336611941524025165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 110
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c2543f39e335050800000000000000
+      internalID: 5788038751263730710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 108
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea50290ebdd00300800000000000000
+      internalID: 216416590380423912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 107
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c53d899df5b1d0800000000000000
+      internalID: -3335481113057048145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 106
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae181bb586b9db2d0800000000000000
+      internalID: -3261279682629107222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 108
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a709d30e78460b060800000000000000
+      internalID: 6967179158287650938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff81a9ed359c2f30800000000000000
+      internalID: 4552177416509951992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d452e10234c6fe290800000000000000
+      internalID: -7858943789180770995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 33
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e542083da2fc8220800000000000000
+      internalID: 2489631519811978729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 30
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258bc10c38c582970800000000000000
+      internalID: 8730329598591285330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 33
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9de5d556633f6610800000000000000
+      internalID: 1616567305869061534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 33
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dca64f2b5da412a0800000000000000
+      internalID: -6767593732884222763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 34
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af1951d61409d140800000000000000
+      internalID: 4744828178459598752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 31
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb24dc82ccbf7f160800000000000000
+      internalID: 7059387795202982588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 30
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d99a0e227926c00800000000000000
+      internalID: 892441852226673920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Top-Down-Dungeon-Tileset2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 29
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3c8a8cc3779f5b0800000000000000
+      internalID: -5334101180695395368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
