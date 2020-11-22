@@ -12,7 +12,6 @@ public class MonsterRun : StateMachineBehaviour
 
     Rigidbody2D r2d;
     Monster monster;
-
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -34,11 +33,7 @@ public class MonsterRun : StateMachineBehaviour
             animator.SetTrigger("attack");
             
         }
-        if (monster.MonsterHealth <= 0)
-        {
-            monster.Dead();
-
-        }
+        
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
@@ -47,5 +42,7 @@ public class MonsterRun : StateMachineBehaviour
 
             animator.ResetTrigger("attack");
     }
+
+
 
 }

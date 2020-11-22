@@ -12,7 +12,8 @@ public class Monster : MonoBehaviour
 
     public bool awake = false;
     public bool faceRight = false;
-    public bool Die = true;
+    public bool Die = false;
+    public bool IDE = true;
 
     public Animator anim;
     private void Start()
@@ -26,6 +27,13 @@ public class Monster : MonoBehaviour
         anim.SetBool("awake", awake);
 
         RangeCheck();
+
+        anim.SetBool("dead", Die); // tham chiếu giá trị die
+
+        if (MonsterHealth <= 0)
+        {
+            Die = true; // set giá trị biến die
+        }
     }
 
     void RangeCheck()
@@ -70,9 +78,21 @@ public class Monster : MonoBehaviour
     public void Dead()
     {
         anim.SetBool("dead", Die);
-        anim.SetTrigger("dead");
 
-            Destroy(gameObject);
+        //anim.SetTrigger("dead");
+    }
 
+    public void DetroyMonster()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("DiemQuayDauQuai")){
+            IDE = true;
+            anim.SetBool("ide", IDE);
+
+        }   
     }
 }

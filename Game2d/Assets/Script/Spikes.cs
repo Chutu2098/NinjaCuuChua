@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    public Player player;
 
-
-    // Use this for initialization
+    public Player mPlayer;
+    
+    // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        if(mPlayer == null)
+        {
+            mPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        }
+
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (col.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            player.Damage(1);
-            player.Knockback(400f, player.transform.position);
+            mPlayer.Damage(10); // khi người chơi va chạm vào sẽ trừ máu đi 1
+            mPlayer.Knockback(100f, mPlayer.transform.position);
         }
     }
+
+
 }

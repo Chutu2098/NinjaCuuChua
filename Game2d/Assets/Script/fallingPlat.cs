@@ -6,6 +6,7 @@ public class fallingPlat : MonoBehaviour
 {
     public Rigidbody2D r2;
     public float timedelay = 2;
+    public Collider2D col2d;
     // Use this for initialization
     void Start()
     {

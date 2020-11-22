@@ -13,6 +13,9 @@ TagManager:
   - Monster
   - DiemQuayDauQuai
   - Boss
+  - ngoc
+  - SpikesDie
+  - tuong
   layers:
   - Default
   - TransparentFX

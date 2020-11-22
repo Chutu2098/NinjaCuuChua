@@ -7,7 +7,7 @@ public class MonsterAttack : MonoBehaviour
     public float AtkDmg = 2f;
 
     public Vector3 atkOffset;
-    public float atkRange = 1f; // khoảng cách tấn công
+    public float atkRange = 0.5f; // khoảng cách tấn công
     public LayerMask atkMask;
 
     public Player player;

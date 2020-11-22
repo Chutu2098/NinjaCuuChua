@@ -9,12 +9,12 @@ public class Player : MonoBehaviour
     public bool grounded = true, faceright = true, doublejump = false;
 
     public int ourHealth;
-    public int maxhealth = 100;
+    public int maxhealth = 50;
 
     public Rigidbody2D r2;
     public Animator anim;
     public GameControl gmcol;
-    public HeartUI hpUI;
+    //public HeartUI hpUI;
 
     // Use this for initialization
     void Start()
@@ -23,10 +23,10 @@ public class Player : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         ourHealth = maxhealth;
         gmcol = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
-        if(hpUI == null)
-        {
-            hpUI = gameObject.GetComponent<HeartUI>();
-        }
+        //if(hpUI == null)
+        //{
+        //    hpUI = gameObject.GetComponent<HeartUI>();
+        //}
     }
 
     // Update is called once per frame
@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
                 {
                     doublejump = false;
                     r2.velocity = new Vector2(r2.velocity.x, 0);
-                    r2.AddForce(Vector2.up * jumpPow * 1.2f);
+                    r2.AddForce(Vector2.up * jumpPow * 0.8f);
                 }
             }
 
@@ -109,15 +109,18 @@ public class Player : MonoBehaviour
         gameObject.GetComponent<Animation>().Play("redflast");
     }
 
+
+    // va chạm bẫy
     public void Knockback(float Knockpow, Vector2 Knockdir)
     {
         r2.velocity = new Vector2(0, 0);
-        if(faceright){
-            r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
+        if (faceright)
+        {
+            r2.AddForce(new Vector2(Knockdir.x * -10, Knockdir.y * Knockpow));
         }
         else
         {
-            r2.AddForce(new Vector2(Knockdir.x * 100, Knockdir.y * Knockpow));
+            r2.AddForce(new Vector2(Knockdir.x * 10, Knockdir.y * Knockpow));
         }
     }
 
@@ -134,7 +137,7 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             if(ourHealth != maxhealth)
             {
-                ourHealth++;
+                ourHealth += 10;
             }
         }
     }
