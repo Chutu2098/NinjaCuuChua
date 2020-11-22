@@ -8,15 +8,19 @@ public class PlayerAttack : MonoBehaviour
     public bool attacking = false;
 
     public Animator anim;
+    
 
     public Collider2D trigger;
+
+   
 
     private void Awake()
     {
         anim = gameObject.GetComponent<Animator>();
         trigger.enabled = false;
+       
     }
-
+    
 
     // Update is called once per frame
     void Update()
@@ -26,6 +30,7 @@ public class PlayerAttack : MonoBehaviour
             attacking = true;
             trigger.enabled = true;
             attackdelay = 0.3f;
+           
         }
 
         if (attacking)

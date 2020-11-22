@@ -1,0 +1,1901 @@
+fileFormatVersion: 2
+guid: b1628faed3fb6bf4db4856bb50818201
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5265749913833860149
+    second: pngbarn_0
+  - first:
+      213: -7549649584928578124
+    second: pngbarn_1
+  - first:
+      213: 2058995814722510552
+    second: pngbarn_2
+  - first:
+      213: -9052042294324590745
+    second: pngbarn_3
+  - first:
+      213: -712576151408597236
+    second: pngbarn_4
+  - first:
+      213: 6298982083862204281
+    second: pngbarn_5
+  - first:
+      213: 3609146111769110088
+    second: pngbarn_6
+  - first:
+      213: -9019782392237709608
+    second: pngbarn_7
+  - first:
+      213: -8126963061244111772
+    second: pngbarn_8
+  - first:
+      213: 7303373744670460443
+    second: pngbarn_9
+  - first:
+      213: -6920484883571682784
+    second: pngbarn_10
+  - first:
+      213: -5202762487660078310
+    second: pngbarn_11
+  - first:
+      213: -3422809675091579403
+    second: pngbarn_12
+  - first:
+      213: -7750132526031650205
+    second: pngbarn_13
+  - first:
+      213: -1753111781942567277
+    second: pngbarn_14
+  - first:
+      213: -4265814741278256509
+    second: pngbarn_15
+  - first:
+      213: 451430379139346878
+    second: pngbarn_16
+  - first:
+      213: 4432808294424393166
+    second: pngbarn_17
+  - first:
+      213: -2881868778327482555
+    second: pngbarn_18
+  - first:
+      213: 2497326800465054104
+    second: pngbarn_19
+  - first:
+      213: 6111968522687666954
+    second: pngbarn_20
+  - first:
+      213: -5825630697222327266
+    second: pngbarn_21
+  - first:
+      213: -1722966646580093890
+    second: pngbarn_22
+  - first:
+      213: -7049975340259722000
+    second: pngbarn_23
+  - first:
+      213: 2793351369591915541
+    second: pngbarn_24
+  - first:
+      213: 2605156144849524073
+    second: pngbarn_25
+  - first:
+      213: 1442495942793737022
+    second: pngbarn_26
+  - first:
+      213: -6322211755494183693
+    second: pngbarn_27
+  - first:
+      213: -8745095963712728549
+    second: pngbarn_28
+  - first:
+      213: -2655743744238087251
+    second: pngbarn_29
+  - first:
+      213: -8169545907551409300
+    second: pngbarn_30
+  - first:
+      213: -5151636028494514727
+    second: pngbarn_31
+  - first:
+      213: 7046081490061354048
+    second: pngbarn_32
+  - first:
+      213: 265782473501326448
+    second: pngbarn_33
+  - first:
+      213: -8154752698925878079
+    second: pngbarn_34
+  - first:
+      213: 1277704611619659871
+    second: pngbarn_35
+  - first:
+      213: 8753279192582176861
+    second: pngbarn_36
+  - first:
+      213: 7825597025942759082
+    second: pngbarn_37
+  - first:
+      213: 120104322890246111
+    second: pngbarn_38
+  - first:
+      213: -6865136479730631649
+    second: pngbarn_39
+  - first:
+      213: 2479681510386383625
+    second: pngbarn_40
+  - first:
+      213: 1470376744010544455
+    second: pngbarn_41
+  - first:
+      213: 4980415141207423530
+    second: pngbarn_42
+  - first:
+      213: -4326943378782217517
+    second: pngbarn_43
+  - first:
+      213: 7832012135473300641
+    second: pngbarn_44
+  - first:
+      213: -5148343727653586129
+    second: pngbarn_45
+  - first:
+      213: -7696339082232174125
+    second: pngbarn_46
+  - first:
+      213: -1876187115987916961
+    second: pngbarn_47
+  - first:
+      213: 5474376053531839889
+    second: pngbarn_48
+  - first:
+      213: -3876949838228147230
+    second: pngbarn_49
+  - first:
+      213: 3826971694322310606
+    second: pngbarn_50
+  - first:
+      213: 1132611226235022632
+    second: pngbarn_51
+  - first:
+      213: -6919333733998116225
+    second: pngbarn_52
+  - first:
+      213: -4481937324261707998
+    second: pngbarn_53
+  - first:
+      213: 4938266444219607436
+    second: pngbarn_54
+  - first:
+      213: 3352238895828559240
+    second: pngbarn_55
+  - first:
+      213: -4693444320652179479
+    second: pngbarn_56
+  - first:
+      213: -5409217527439641129
+    second: pngbarn_57
+  - first:
+      213: 4700873149146215174
+    second: pngbarn_58
+  - first:
+      213: -8781911047657350766
+    second: pngbarn_59
+  - first:
+      213: 9177665608265316293
+    second: pngbarn_60
+  - first:
+      213: -1965656334960994859
+    second: pngbarn_61
+  - first:
+      213: 1519656183001821604
+    second: pngbarn_62
+  - first:
+      213: -6164674288450034844
+    second: pngbarn_63
+  - first:
+      213: 4823675313301909573
+    second: pngbarn_64
+  - first:
+      213: 307142331437601758
+    second: pngbarn_65
+  - first:
+      213: 520344879245774492
+    second: pngbarn_66
+  - first:
+      213: 709470720553070484
+    second: pngbarn_67
+  - first:
+      213: 4763809214296779719
+    second: pngbarn_68
+  - first:
+      213: 7658293058059605549
+    second: pngbarn_69
+  - first:
+      213: -1077740625607479649
+    second: pngbarn_70
+  - first:
+      213: -3265115752361349294
+    second: pngbarn_71
+  - first:
+      213: 7147627467782474070
+    second: pngbarn_72
+  - first:
+      213: 5903682244622546566
+    second: pngbarn_73
+  - first:
+      213: 2933869168393713092
+    second: pngbarn_74
+  - first:
+      213: 7817998734101499991
+    second: pngbarn_75
+  - first:
+      213: -2388374370373246492
+    second: pngbarn_76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngbarn_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 637
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc393ed3a5c4ce6b0800000000000000
+      internalID: -5265749913833860149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 634
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b528a7c3b14a3790800000000000000
+      internalID: -7549649584928578124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 633
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de1d82d8c5039c10800000000000000
+      internalID: 2058995814722510552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 635
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76788fa3e7fa06280800000000000000
+      internalID: -9052042294324590745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 635
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0720e304cb6c16f0800000000000000
+      internalID: -712576151408597236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 642
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f0823f4da7a6750800000000000000
+      internalID: 6298982083862204281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 658
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846ea7e3443461230800000000000000
+      internalID: 3609146111769110088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 624
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6295ff3bb43d280800000000000000
+      internalID: -9019782392237709608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 637
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464d2df772a373f80800000000000000
+      internalID: -8126963061244111772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_9
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 633
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a4ff0d9bbca5560800000000000000
+      internalID: 7303373744670460443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 635
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022df392aaf75ff90800000000000000
+      internalID: -6920484883571682784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 621
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b1b4835131cc7b0800000000000000
+      internalID: -5202762487660078310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 619
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd656e3cbcbf70d0800000000000000
+      internalID: -3422809675091579403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 633
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362ceaf878ff17490800000000000000
+      internalID: -7750132526031650205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 622
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ed2c96f12bba7e0800000000000000
+      internalID: -1753111781942567277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 593
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821c741818ccc4c0800000000000000
+      internalID: -4265814741278256509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1bb6db98dc34600800000000000000
+      internalID: 451430379139346878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 603
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5329268af748d30800000000000000
+      internalID: 4432808294424393166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 605
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f508a6d9b8108d0800000000000000
+      internalID: -2881868778327482555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 609
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89948cd5e7948a220800000000000000
+      internalID: 2497326800465054104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_20
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 608
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bda212df212d450800000000000000
+      internalID: 6111968522687666954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 609
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14b3731fb3372fa0800000000000000
+      internalID: -5825630697222327266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 583
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c5fbea6fac618e0800000000000000
+      internalID: -1722966646580093890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_23
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 586
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc3e88c7c4792e90800000000000000
+      internalID: -7049975340259722000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_24
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 578
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5148065554af3c620800000000000000
+      internalID: 2793351369591915541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 587
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9659e2606bf572420800000000000000
+      internalID: 2605156144849524073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_26
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 597
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33b924da66c40410800000000000000
+      internalID: 1442495942793737022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 600
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc68f6a7edf248a0800000000000000
+      internalID: -6322211755494183693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 603
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b125334fd8d23a680800000000000000
+      internalID: -8745095963712728549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_29
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 587
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da31936a227e42bd0800000000000000
+      internalID: -2655743744238087251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_30
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 570
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6be62cf741ff9e80800000000000000
+      internalID: -8169545907551409300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 567
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5fa7d9356b188b0800000000000000
+      internalID: -5151636028494514727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_32
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 573
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044ef8198c5b8c160800000000000000
+      internalID: 7046081490061354048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_33
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 557
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c329060cf30b300800000000000000
+      internalID: 265782473501326448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_34
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 555
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c47d5540af74de80800000000000000
+      internalID: -8154752698925878079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_35
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 556
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e77f13915bb110800000000000000
+      internalID: 1277704611619659871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 550
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50cdad7c05e97970800000000000000
+      internalID: 8753279192582176861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_37
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 569
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6eba6880b1a9c60800000000000000
+      internalID: 7825597025942759082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_38
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 543
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7acddce32baa100800000000000000
+      internalID: 120104322890246111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_39
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 545
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c7417aeb22ab0a0800000000000000
+      internalID: -6865136479730631649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_40
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 541
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b3fae1239996220800000000000000
+      internalID: 2479681510386383625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_41
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 546
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7457eb8bbd3d76410800000000000000
+      internalID: 1470376744010544455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_42
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 546
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a35adfe2dfd1540800000000000000
+      internalID: 4980415141207423530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_43
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 542
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da15701ceb93f3c0800000000000000
+      internalID: -4326943378782217517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_44
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 560
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a44f6b9a85e0bc60800000000000000
+      internalID: 7832012135473300641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_45
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 471
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bf89328a86d88b0800000000000000
+      internalID: -5148343727653586129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_46
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 538
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d96894b16c113590800000000000000
+      internalID: -7696339082232174125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 471
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57206b22c176f5e0800000000000000
+      internalID: -1876187115987916961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 479
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d8ba52404e8fb40800000000000000
+      internalID: 5474376053531839889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_49
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 479
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e33760c9ae423ac0800000000000000
+      internalID: -3876949838228147230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_50
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 478
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd5e85da722c1530800000000000000
+      internalID: 3826971694322310606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_51
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 479
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dab50d8e7d7bf00800000000000000
+      internalID: 1132611226235022632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_52
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 478
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f724aae01a699ff90800000000000000
+      internalID: -6919333733998116225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_54
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 501
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89e0fdba2f388440800000000000000
+      internalID: 4938266444219607436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_55
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 503
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885eb1cc38b858e20800000000000000
+      internalID: 3352238895828559240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_56
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 505
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c37ed1498ddeb0800000000000000
+      internalID: -4693444320652179479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_57
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 503
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5b42c61599ee4b0800000000000000
+      internalID: -5409217527439641129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_58
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 495
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603380d093bdc3140800000000000000
+      internalID: 4700873149146215174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_59
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 479
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2991e434e62602680800000000000000
+      internalID: -8781911047657350766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_60
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 443
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c739ffce3e9d5f70800000000000000
+      internalID: 9177665608265316293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_61
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 471
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d557245af598b4e0800000000000000
+      internalID: -1965656334960994859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_62
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 472
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1bc883f37e61510800000000000000
+      internalID: 1519656183001821604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_63
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 435
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a3f0856da27aa0800000000000000
+      internalID: -6164674288450034844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 237
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407e29f32321f240800000000000000
+      internalID: 4823675313301909573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 443
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e432829e2a83700800000000000000
+      internalID: 520344879245774492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_67
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 153
+        width: 150
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2b158cdb88d900800000000000000
+      internalID: 709470720553070484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_69
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 360
+        width: 134
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d269b7ff5f8b74a60800000000000000
+      internalID: 7658293058059605549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_70
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 348
+        width: 99
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ea8a27c981b01f0800000000000000
+      internalID: -1077740625607479649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_71
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 97
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f28f5c58affa2d0800000000000000
+      internalID: -3265115752361349294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_72
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 166
+        width: 81
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659cffbef49713360800000000000000
+      internalID: 7147627467782474070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_73
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 171
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686f181f8b71ee150800000000000000
+      internalID: 5903682244622546566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_74
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 160
+        width: 183
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5f39fd67237b820800000000000000
+      internalID: 2933869168393713092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 47
+        width: 169
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750d2985d6c1f7c60800000000000000
+      internalID: 7817998734101499991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngbarn_76
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 21
+        width: 206
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1614f0a2acaded0800000000000000
+      internalID: -2388374370373246492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
