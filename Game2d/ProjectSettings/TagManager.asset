@@ -10,6 +10,9 @@ TagManager:
   - Enemy
   - Gold
   - Thuoc
+  - Monster
+  - DiemQuayDauQuai
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - player
   - 
   - 
   - 

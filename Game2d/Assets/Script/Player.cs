@@ -1,15 +1,15 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 50f, maxspeed = 5, maxjump = 4, jumpPow = 220f;
+    public float speed = 50f, maxspeed = 3, maxjump = 4, jumpPow = 220f;
     public bool grounded = true, faceright = true, doublejump = false;
 
     public int ourHealth;
-    public int maxhealth = 50;
+    public int maxhealth = 100;
 
     public Rigidbody2D r2;
     public Animator anim;
@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         ourHealth = maxhealth;
-        //gmcol = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
-        if (hpUI == null)
+        gmcol = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
+        if(hpUI == null)
         {
             hpUI = gameObject.GetComponent<HeartUI>();
         }
@@ -50,14 +50,13 @@ public class Player : MonoBehaviour
                 {
                     doublejump = false;
                     r2.velocity = new Vector2(r2.velocity.x, 0);
-                    r2.AddForce(Vector2.up * jumpPow * 0.8f);
-
+                    r2.AddForce(Vector2.up * jumpPow * 1.2f);
                 }
             }
 
         }
     }
-    
+
     void FixedUpdate()
     {
         float h = Input.GetAxis("Horizontal");
@@ -95,7 +94,10 @@ public class Player : MonoBehaviour
     public void Flip()
     {
         faceright = !faceright;
-        transform.Rotate(0f, 180f, 0f);
+        Vector3 Scale;
+        Scale = transform.localScale;
+        Scale.x *= -1;
+        transform.localScale = Scale;
     }
     public void Death()
     {
@@ -110,8 +112,7 @@ public class Player : MonoBehaviour
     public void Knockback(float Knockpow, Vector2 Knockdir)
     {
         r2.velocity = new Vector2(0, 0);
-        if (faceright)
-        {
+        if(faceright){
             r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
         }
         else
@@ -120,21 +121,21 @@ public class Player : MonoBehaviour
         }
     }
 
-    //private void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (other.CompareTag("Gold"))
-    //    {
-    //        Destroy(other.gameObject);
-    //        gmcol.GamePoint++;
-    //    }
-    //    //gmcol.GetPoint(); // dùng tạm thời . vẽ  tiền full map trước rồi sửa
-    //    if (other.CompareTag("Thuoc"))
-    //    {
-    //        Destroy(other.gameObject);
-    //        if (ourHealth != maxhealth)
-    //        {
-    //            ourHealth++;
-    //        }
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Gold"))
+        {
+            Destroy(other.gameObject);
+            gmcol.GamePoint++;
+        }
+        //gmcol.GetPoint(); // dùng tạm thời . vẽ  tiền full map trước rồi sửa
+        if (other.CompareTag("Thuoc"))
+        {
+            Destroy(other.gameObject);
+            if(ourHealth != maxhealth)
+            {
+                ourHealth++;
+            }
+        }
+    }
 }
