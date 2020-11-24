@@ -5,7 +5,7 @@ using UnityEngine;
 public class MonsterRun : StateMachineBehaviour
 {
     public float speed = 0.5f;
-    public float attackRange = 1f;
+    public float attackRange = 2f;
 
 
     public Transform player;

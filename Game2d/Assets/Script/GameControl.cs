@@ -7,6 +7,8 @@ public class GameControl : MonoBehaviour
 {
     public int GamePoint = 0;
     public Text txtPoint;
+    public int Ngoc = 0;
+    public Text txtNgoc;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,7 @@ public class GameControl : MonoBehaviour
     void Update()
     {
         txtPoint.text = "X " + GamePoint.ToString();
+        txtNgoc.text = "X " + Ngoc.ToString();
     }
 
     //public void GetPoint()
