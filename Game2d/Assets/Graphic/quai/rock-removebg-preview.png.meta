@@ -1,10 +1,25 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:Game2d/Assets/Graphic/quai/rock-removebg-preview.png.meta
+=======
+>>>>>>> Stashed changes
 guid: 8a51dc6abbc775746a4f7ddd04f722f8
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7128023946664962774
     second: rock-removebg-preview_0
+<<<<<<< Updated upstream
+=======
+guid: 90406e338c10b3a4bbb1300c417f2fed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2960402581040015946
+    second: 18_0
+>>>>>>> Stashed changes:Game2d/Assets/Graphic/bang/18.png.meta
+=======
+>>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,6 +117,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:Game2d/Assets/Graphic/quai/rock-removebg-preview.png.meta
+=======
+>>>>>>> Stashed changes
       name: rock-removebg-preview_0
       rect:
         serializedVersion: 2
@@ -109,6 +128,18 @@ TextureImporter:
         y: 76
         width: 275
         height: 302
+<<<<<<< Updated upstream
+=======
+      name: 18_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+>>>>>>> Stashed changes:Game2d/Assets/Graphic/bang/18.png.meta
+=======
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,8 +147,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:Game2d/Assets/Graphic/quai/rock-removebg-preview.png.meta
       spriteID: 6da617b7304dbe260800000000000000
       internalID: 7128023946664962774
+=======
+      spriteID: a4a2a0b6676751920800000000000000
+      internalID: 2960402581040015946
+>>>>>>> Stashed changes:Game2d/Assets/Graphic/bang/18.png.meta
+=======
+      spriteID: 6da617b7304dbe260800000000000000
+      internalID: 7128023946664962774
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []

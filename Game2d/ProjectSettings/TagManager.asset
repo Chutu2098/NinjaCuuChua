@@ -16,6 +16,7 @@ TagManager:
   - ngoc
   - SpikesDie
   - tuong
+  - sound
   layers:
   - Default
   - TransparentFX

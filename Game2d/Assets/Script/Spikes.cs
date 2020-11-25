@@ -17,10 +17,13 @@ public class Spikes : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
+<<<<<<< Updated upstream
             player.Damage(10);
-            
-            player.Knockback(400f, player.transform.position);
-
+            player.Knockback(50f, player.transform.position);
+=======
+            player.Damage(1);
+            player.Knockback(100f, player.transform.position);
+>>>>>>> Stashed changes
         }
     }
 }

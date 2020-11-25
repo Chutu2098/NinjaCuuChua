@@ -1,11 +1,11 @@
-﻿ using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 50f, maxspeed = 3, maxjump = 4, jumpPow = 220f;
+    public float speed = 50f, maxspeed = 5, maxjump = 4, jumpPow = 220f;
     public bool grounded = true, faceright = true, doublejump = false;
 
     public int ourHealth;
@@ -14,7 +14,10 @@ public class Player : MonoBehaviour
     public Rigidbody2D r2;
     public Animator anim;
     public GameControl gmcol;
-    //public HeartUI hpUI;
+    public HeartUI hpUI;
+    public gamemaster gm;
+    public SoundManager sound;
+    
 
     // Use this for initialization
     void Start()
@@ -23,9 +26,11 @@ public class Player : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         ourHealth = maxhealth;
         gmcol = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
-        //if(hpUI == null)
+        gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<gamemaster>();
+        sound= GameObject.FindGameObjectWithTag("sound").GetComponent<SoundManager>();
+        // if (hpUI == null)
         //{
-        //    hpUI = gameObject.GetComponent<HeartUI>();
+        //  hpUI = gameObject.GetComponent<HeartUI>();
         //}
     }
 
@@ -94,10 +99,7 @@ public class Player : MonoBehaviour
     public void Flip()
     {
         faceright = !faceright;
-        Vector3 Scale;
-        Scale = transform.localScale;
-        Scale.x *= -1;
-        transform.localScale = Scale;
+        transform.Rotate(0f, 180f, 0f);
     }
     public void Death()
     {
@@ -109,18 +111,16 @@ public class Player : MonoBehaviour
         gameObject.GetComponent<Animation>().Play("redflast");
     }
 
-
-    // va chạm bẫy
     public void Knockback(float Knockpow, Vector2 Knockdir)
     {
         r2.velocity = new Vector2(0, 0);
         if (faceright)
         {
-            r2.AddForce(new Vector2(Knockdir.x * -10, Knockdir.y * Knockpow));
+            r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
         }
         else
         {
-            r2.AddForce(new Vector2(Knockdir.x * 10, Knockdir.y * Knockpow));
+            r2.AddForce(new Vector2(Knockdir.x * 100, Knockdir.y * Knockpow));
         }
     }
 
@@ -128,14 +128,22 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("Gold"))
         {
+            sound.Playsound("coins");
             Destroy(other.gameObject);
             gmcol.GamePoint++;
+        }
+        if (other.CompareTag("ngoc"))
+        {
+            sound.Playsound("coins");
+            Destroy(other.gameObject);
+            gm.highscore++;
         }
         //gmcol.GetPoint(); // dùng tạm thời . vẽ  tiền full map trước rồi sửa
         if (other.CompareTag("Thuoc"))
         {
+            sound.Playsound("coins");
             Destroy(other.gameObject);
-            if(ourHealth != maxhealth)
+            if (ourHealth != maxhealth)
             {
                 ourHealth += 10;
             }

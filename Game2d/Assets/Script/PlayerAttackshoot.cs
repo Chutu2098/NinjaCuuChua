@@ -10,7 +10,7 @@ public class PlayerAttackshoot : MonoBehaviour
     public Animator anim;
     public Transform FirePoint;
     public GameObject Bullet;
-
+    public SoundManager sound;
     public Collider2D trigger;
 
     private void Awake()
@@ -18,6 +18,7 @@ public class PlayerAttackshoot : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         trigger.enabled = false;
         FirePoint = transform.Find("FirePoint");
+        sound = GameObject.FindGameObjectWithTag("sound").GetComponent<SoundManager>();
     }
 
 
@@ -26,6 +27,7 @@ public class PlayerAttackshoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X) && !attackingshoot)
         {
+            sound.Playsound("bullet");
             attackingshoot = true;
             trigger.enabled = true;
             attackdelay = 0.3f;

@@ -1,16 +1,23 @@
 fileFormatVersion: 2
-guid: b7a33e8a8ef8661438a692674e6cbea6
+<<<<<<< Updated upstream
+guid: 4430a0c9241415447948bd40a52281d1
+=======
+guid: 05d2d2014d041ed42a7ba308065240b7
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2182124076254010665
-    second: rock_0
+      213: -6189188953215764179
+    second: iceitem_0
   - first:
-      213: 2115267796186251350
-    second: rock_1
+      213: 5591471494049012954
+    second: iceitem_1
   - first:
-      213: -6546699357316064334
-    second: rock_2
+      213: -5998942399694565550
+    second: iceitem_2
+  - first:
+      213: 214780596965606877
+    second: iceitem_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -43,9 +50,9 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -100
-    wrapU: 2
-    wrapV: 2
-    wrapW: 2
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -108,83 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock_0
+      name: iceitem_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 299
-        width: 225
-        height: 48
+        x: 121
+        y: 308
+        width: 133
+        height: 85
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d26d0bc6b987b1e0800000000000000
-      internalID: -2182124076254010665
+      spriteID: d297dc350759b1aa0800000000000000
+      internalID: -6189188953215764179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock_1
+      name: iceitem_1
       rect:
         serializedVersion: 2
-        x: 245
-        y: 97
-        width: 375
-        height: 387
-      alignment: 9
-      pivot: {x: 0.5222352, y: 0.42941606}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.5, y: -192.5}
-        - {x: -78.5, y: -193.5}
-        - {x: -182.5, y: -188.5}
-        - {x: -183.5, y: -138.5}
-        - {x: -104.5, y: -76.5}
-        - {x: 14.5, y: -30.5}
-        - {x: 11.5, y: 57.5}
-        - {x: -71.5, y: 74.5}
-        - {x: -109.5, y: 93.5}
-        - {x: -61.5, y: 193.5}
-        - {x: 171.5, y: 192.5}
-        - {x: 171.5, y: -179.5}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 650418c7ad0fa5d10800000000000000
-      internalID: 2115267796186251350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rock_2
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 187
-        width: 257
-        height: 91
+        x: 297
+        y: 306
+        width: 220
+        height: 90
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 80.5, y: -18.5}
-        - {x: 45.5, y: -45.5}
-        - {x: -128.5, y: -44.5}
-        - {x: -128.5, y: 44.5}
-        - {x: 128.5, y: 44.5}
-        - {x: 128.5, y: 34.5}
-        - {x: 120.5, y: 13.5}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bbd5e3de937525a0800000000000000
-      internalID: -6546699357316064334
+      spriteID: adc938ee2b5e89d40800000000000000
+      internalID: 5591471494049012954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceitem_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 140
+        width: 299
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f0d26dba97fbca0800000000000000
+      internalID: -5998942399694565550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceitem_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 139
+        width: 78
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd508c2a0dd0bf200800000000000000
+      internalID: 214780596965606877
       vertices: []
       indices: 
       edges: []
