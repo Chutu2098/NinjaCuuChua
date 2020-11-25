@@ -22,7 +22,7 @@ public class Spikes : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             mPlayer.Damage(10); // khi người chơi va chạm vào sẽ trừ máu đi 1
-            mPlayer.Knockback(100f, mPlayer.transform.position);
+            mPlayer.Knockback(50f, mPlayer.transform.position);
         }
     }
 

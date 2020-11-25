@@ -16,7 +16,6 @@ public class BossController : MonoBehaviour
     public bool IDE = true;
 
     public Animator anim;
-    public Collider2D col;
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -88,13 +87,4 @@ public class BossController : MonoBehaviour
 
     }
 
-    //private void OnTriggerEnter2D(Collider2D col)
-    //{
-    //    if (col.CompareTag("DiemQuayDauQuai"))
-    //    {
-    //        IDE = true;
-    //        anim.SetBool("ide", IDE);
-
-    //    }
-    //}
 }

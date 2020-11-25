@@ -8,13 +8,9 @@ public class AttackTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-<<<<<<< Updated upstream
 
         if (col.isTrigger != true && (col.CompareTag("Enemy") || col.CompareTag("Monster") || col.CompareTag("Boss")))
 
-=======
-        if (col.isTrigger != true && col.CompareTag("Ground"))
->>>>>>> Stashed changes
         {
             col.SendMessageUpwards("Damage", dmg);
         }
