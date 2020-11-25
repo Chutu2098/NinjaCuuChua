@@ -18,6 +18,8 @@ public class MonsterAttack : MonoBehaviour
         pos += transform.right * atkOffset.x;
         pos += transform.up * atkOffset.y;
 
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
         Collider2D colInfo = Physics2D.OverlapCircle(pos, atkRange, atkMask);
 
         if(colInfo != null && colInfo.CompareTag("Player"))
