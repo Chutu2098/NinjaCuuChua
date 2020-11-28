@@ -109,6 +109,7 @@ public class Player : MonoBehaviour
     {
         ourHealth -= damage;
         gameObject.GetComponent<Animation>().Play("redflast");
+        
     }
 
     public void Knockback(float Knockpow, Vector2 Knockdir)

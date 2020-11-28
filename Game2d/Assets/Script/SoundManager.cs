@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip coins, swords, destroy,bullet;
+    public AudioClip coins, swords, destroy,bullet,ua;
 
     public AudioSource adisrc;
     // Use this for initialization
@@ -14,6 +14,7 @@ public class SoundManager : MonoBehaviour
         swords = Resources.Load<AudioClip>("Sword");
         destroy = Resources.Load<AudioClip>("crash");
         bullet = Resources.Load<AudioClip>("bullet");
+        ua = Resources.Load<AudioClip>("ua");
         adisrc = GetComponent<AudioSource>();
 
     }
@@ -39,6 +40,10 @@ public class SoundManager : MonoBehaviour
             case "bullet":
                 adisrc.clip = bullet;
                 adisrc.PlayOneShot(bullet, 1f);
+                break;
+            case "ua":
+                adisrc.clip = ua;
+                adisrc.PlayOneShot(ua, 1f);
                 break;
 
         }
