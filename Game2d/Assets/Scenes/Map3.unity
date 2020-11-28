@@ -6607,6 +6607,9 @@ MonoBehaviour:
   r2: {fileID: 0}
   anim: {fileID: 0}
   gmcol: {fileID: 0}
+  hpUI: {fileID: 0}
+  gm: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!61 &623220318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6810,6 +6813,7 @@ MonoBehaviour:
   attackdelay: 0.3
   attacking: 0
   anim: {fileID: 0}
+  sound: {fileID: 0}
   trigger: {fileID: 125720237}
 --- !u!114 &623220327
 MonoBehaviour:
@@ -6828,6 +6832,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   FirePoint: {fileID: 1836052020}
   Bullet: {fileID: 1539632861300792, guid: 96ae8f9dd8fd89941bc4d858375f035b, type: 3}
+  sound: {fileID: 0}
   trigger: {fileID: 125720237}
 --- !u!1 &627656533
 GameObject:
@@ -8381,7 +8386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714297700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.885, y: 24.95, z: 0}
+  m_LocalPosition: {x: -0.33, y: 25.08, z: 0}
   m_LocalScale: {x: 1.771367, y: 1.795736, z: 1.2961822}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13783,6 +13788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
+  sound: {fileID: 0}
 --- !u!1 &1245943752
 GameObject:
   m_ObjectHideFlags: 0
@@ -17580,7 +17586,7 @@ SpriteRenderer:
   m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1684626817
@@ -18988,7 +18994,7 @@ SpriteRenderer:
   m_Size: {x: 4.72, y: 2.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1844335773
@@ -19069,7 +19075,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1846720369
@@ -19514,7 +19520,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1951178051
@@ -20842,6 +20848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
+  sound: {fileID: 0}
 --- !u!50 &2051743948
 Rigidbody2D:
   serializedVersion: 4
