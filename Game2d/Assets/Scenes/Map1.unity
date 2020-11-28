@@ -27790,7 +27790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  MonsterHealth: 100
+  MonsterHealth: 200
   distance: 0
   wakerange: 7
   awake: 0
