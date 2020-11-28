@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class gamemaster : MonoBehaviour
 {
     public int highscore = 0;
-    public Text Inputtext;
+    public Text txtNgoc;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +29,6 @@ public class gamemaster : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
-        Inputtext.text = ("X " + highscore);
+        txtNgoc.text = "X " + highscore;
     }
 }
